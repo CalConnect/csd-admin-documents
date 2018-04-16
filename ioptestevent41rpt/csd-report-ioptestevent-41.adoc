@@ -1,0 +1,79 @@
+= Report on CalConnect Test Event and Developers Forum XLI, January 29-31, 2018
+:docnumber: 1802
+:ref-docnumber: CD 1802:2018
+:language: en
+:doctype: report
+:edition: 1
+:status: published
+:copyright-year: 2018
+:revdate: 2018-03-02T00:00:00Z
+:language: en
+:title: Report on CalConnect Conference XLI, January 31 - February 2, 2018
+:technical-committee: IOPTEST
+:toc:
+:sectnumlevels: 7
+:stem:
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+== Report
+
+The event was hosted by Oath in Sunnyvale, California, January 29-31, 2018
+
+In attendance for this interoperability event and developers forum were:
+
+* Mike Douglass Spherical Cow Group - managing the event
+* Ken Murchison for Fastmail
+* Thomas Schäfer for 1&1
+* Greg Solovyev for Zimbra
+* Peter Tam for Ribose
+* Richard Brigham and Anjj Kumar Tweari for Oath
+
+Despite the small attendance we managed to cover a number of topics.
+
+There was some work being done with `ical4j` as we continue to try to move forward to a version
+based on the latest from Ben Fortuna. Some members have heavily modified older versions but
+are getting closer. We intend to create a clone with some or all of the members' changes which
+can be used as a staging point for pushing them up to Ben.
+
+There was some discussion on the work that is going on with vCard or its replacement. There
+are still questions on how to represent all the desired groups of information. It seems the
+discussions helped clarify some points.
+
+There was more work trying to get the CalDAV tester running. Anuj from Oath got Darwin and
+the tester running together in record time and then proceeded to run tests against their server.
+
+There was more work on updating the developers guide.
+
+In addition we were working on getting vPoll running again as there was to be a demonstration
+in the main conference following.
+
+We should remind potential attendees that the developers forum and test event is as much
+about detailed discussions on points of implementation as it is about testing. It provides an
+opportunity to discuss those small details. If you do have something to test or develop then
+come early and get advice on the best path to take.
