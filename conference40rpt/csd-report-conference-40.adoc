@@ -1,0 +1,179 @@
+= Report on CalConnect Conference XL, September 27-29, 2017
+:docnumber: 1705
+:ref-docnumber: CD 1705:2018
+:language: en
+:doctype: report
+:edition: 1
+:status: published
+:copyright-year: 2017
+:revdate: 2017-10-23T00:00:00Z
+:language: en
+:title: Report on CalConnect Conference XL, September 27-29, 2017
+:technical-committee: CHAIRS
+:toc:
+:sectnumlevels: 7
+:stem:
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+
+:sectnums!:
+== Introduction
+
+CalConnect XL took place September 27-29, 2017, hosted by Open-Xchange in
+Cologne, Germany. The CalConnect Test Event (Monday, Tuesday, and Wednesday
+morning) and Conference (Wednesday afternoon, Thursday and Friday) were held at
+Komed House, a conference facility in the Cologne Media Park.
+
+The CalConnect Conference was attended by 20 people from 12 members plus a
+guest from GFI. The Test Event/Developers Forum had 10 participants from 7
+members and was largely devoted to the forum and CalDAV Tester rather than specific
+testing.
+
+The Conference focussed on strategic and possible work items in addition to ongoing
+work, and finished with the CalConnect Plenary Session on Friday afternoon. The
+Conference agenda with notes on the discussion topics may be found at CalConnect
+XL Conference Schedule.
+
+:sectnums:
+== Status of documents since last conference
+
+Much of the ongoing work in CalConnect is focused on specifications to become
+internet draft submissions to the IETF and ultimately be progressed to publication as
+RFCs (Proposed Standards), rather than directly published by CalConnect itself.
+
+Specifications in progress and not yet published are generally resident on GitHub either
+in our public or private areas.
+
+=== CalConnect Drafts to be Published as Informational RFCs
+
+* CalDAV Managed Attachments (TC CALENDAR)
+
+=== CalConnect Drafts in CALEXT Working Group Last Call at IETF
+
+* Event Publishing Extensions to iCalendar (TC CALENDAR)
+
+=== CalConnect Drafts in Progressing at CALEXT Working Group at IETF
+
+* Improved Support for iCalendar Relationships (TC CALENDAR
+
+=== New and Updated CalConnect Drafts at the IETF
+
+* Push Discovery and Notification Dispatch Protocol (TC CALENDAR)
+* Calendar Subscription Upgrades
+* JSCalendar: A JSON representation of calendar data
+
+== General status and announcements
+
+Ronald Tse of Ribose was elected the sixth CalConnect Director, and was appointed
+Director, External Relationships.
+
+CalConnect has established a formal Category A Liaison with ISO/TC 211 and is
+exploring a similar liaison with ISO/TC 154. We are also exploring a joint liaison with
+M3AAWG.
+
+== Status of technical committee and related work; plans for future work
+
+=== TC API
+
+Work on JSCalendar is progressing, accommodating contacts and tasks as well as
+events.
+
+=== TC AUTODISCOVERY
+
+Pending; Draft update in progress
+
+=== TC CALENDAR
+
+Work continues on categorization and event types, consistent handling of per-user
+data in events, support for series in iCalendar (as an alternative to recurrences), alarms
+and transparency in JSCalendar, generic notification systems for alarms, calendar
+subscription upgrades, extensions for improved grouping of properties, and a
+CalConnect version of ical4j.
+
+=== TC DEVGUIDE
+
+Service has been migrated of open shift to the Google App engine. We are looking for
+help with the wikipedia article on CalConnect and related articles. Discussion of
+additional areas to be added to the Developers Guide including CalDAV Tester.
+
+=== TC IOPTEST
+
+See separate report on Test Event at CalConnect XL. TC IOPTEST calls have been
+integrated into the Event Planning calls and no separate IOPTEST calls were held since
+the previous event in June.
+
+=== TC PUSH
+
+Draft has been submitted to the IETF; we are exploring which working group should
+handle it. Looking for more implementations.
+
+=== TC SHARING
+
+Calendar Subscription Upgrades decided on a new status (not cancelled) and adding
+time range query. Working on how to advertise which timezone server is used.
+
+=== TC TESTER
+
+Brief report on the status of the work.
+
+=== TC VCARD
+
+Several presentations on status in TC VCARD and progress at ISO/TC 211. TC VCARD
+is working on the New Work Item Proposal on a machine-readable address profile data
+format for TC 211 and expects to submit it soon, perhaps by the next TC 211 Plenary.
+
+=== BOF sessions
+
+Birds of a Feather sessions were held on security and on streaming for iCalendar data.
+
+Work will continue on a security model starting from VCARD security, via mailing list
+and slack. Proposed an initial call for an Ad Hoc on Streaming.
+
+== Plenary meeting
+
+Oath (combined AOL and Yahoo) will host the Winter 2018 CalConnect XLI in
+Sunnyvale, California.
+
+Specific dates were set for CalConnect XLI and CalConnect XLIII (see below).
+
+== Future events
+
+* CalConnect XLI - January 28 - February 2, 2018 - Oath, Sunnyvale, California
+* CalConnect XLII - June 4-8, 2018 - Jorte, Tokyo, Japan
+* CalConnect XLIII - September 24028, 2018 - 1&1, Karlsruhe, Germany
+
+The general format of the CalConnect Week is:
+
+* Monday morning through Wednesday noon, Test Event and Developer’s Forum
+(testing, tech discussions)
+* Wednesday noon through Friday afternoon, Conference
+
+== PICTURES FROM CALCONNECT XL
+
+Pictures courtesy of Thomas Schäfer, 1&1

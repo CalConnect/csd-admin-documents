@@ -1,0 +1,120 @@
+= Report on Test Event and Developers Forum XL, September 25-27 2017
+:docnumber: 1706
+:ref-docnumber: CD 1706:2018
+:language: en
+:doctype: report
+:edition: 1
+:status: published
+:copyright-year: 2018
+:revdate: 2017-11-20T00:00:00Z
+:language: en
+:title: Report on Test Event and Developers Forum XL, September 25-27 2017
+:technical-committee: IOPTEST
+:toc:
+:sectnumlevels: 7
+:stem:
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+== Report
+
+The event was hosted by Open-Xchange in Cologne, Germany on September 25-27,
+2017.
+
+In attendance for this interoperability event and developers forum were:
+
+* Mike Douglass Spherical Cow Group - managing the event
+* Ken Murchison, Robert Stepanek for Fastmail
+* Thomas Schäfer for 1&1
+* Marten Gajda for dmfs
+* Gren Eliot for Zimbra
+* Ralf Becker for eGroupware
+* Martin Herfurth and Tobias Friedrich for Open-Xchange
+* Peter Tam for Ribose
+
+There was a significant amount of discussion around the new JSCalendar draft which also
+spilled over into discussions on vCard. The JSCalendar specification is now felt to be relatively
+stable and as yet there are few comments on the draft from outside CalConnect.The IETF will
+be contacted to see if we can move this into a working group.
+
+There were some discussions about the relative merit of multiple RFCs for different aspects of
+the standard (events v tasks) as against a single all encompassing draft.
+
+This led on to a discussion of the contacts api and the desire to come up with a format for
+contacts that is based on the JSCalendar work. One idea is to define a common data model for
+contacts, independent from data format and exchange protocols. Robert and Peter will share
+the current work documents to see what’s the overlap.
+
+Additionally Peter has been working on a GraphQL-based contacts API. The intent is to propose
+this as a standard at some point.
+
+FastMail with the Cyrus server worked on subscription upgrade with dmfs and successfully
+tested with WebCal-Sync. It should be noted how recurrence overrides are handled. Some
+additional points on subscription upgrade:
+
+* Prefer=minimal will cause VTIMEZONEs to NOT be returned in subscription
+upgrade. It can be overridden by using CalDAV-Timezones:T
+
+* Realized that CalDAV-Timezones SHOULD/MUST be included in Vary header
+when server supports TZ-by-ref and subscription upgrade
+There was some work done switching DEVGUIDE from old to new infrastructure. This required
+a DNS change and bugfixing redirects.
+
+There was a lot of work around the CalDAV tester. Apple is no longer maintaining this tool so we
+are free to apply our own updates to a CalConnect maintained copy. There was some
+discussion around how we should avoid conflicts - the suggestion is to create a ticket for a test
+or test you want to work on. Committing back to the core should be fine at least at this stage.
+
+Some work was started on trying to build bootstrap code into the tester. For many servers this
+will remove the need fo a lot of configuration as the tester should be able to discover most of
+what it needs.
+
+Open-Xchange had been discouraged by the enormous number of failures in the original tester.
+
+During this session they managed to get much further - concentrating on a smaller number fo
+tests.
+
+Ralf for eGroupware has implemented caldavtester - a wrapper around the Apple originated
+tester. This provides a GUI, options for selecting tests and features to determine what changes
+happened as a result of server updates. Some work was done to add new feature to that tool.
+
+A number of changes were also made to some tests to make them less Apple specific - fro
+example, redirects now accept all valid http redirect codes.
+As the large number of errors were reduced we all find that errors in our own server code
+surface.
+
+Zimbra also did some work on fixing an issue with shared addressbooks not visible from iOS /
+CardDAV-Sync on Android.
+
+Further discussions covered:
+
+* iTip improvements: new response for scheduling requests
+* Optimistic updates
+* The need to check the CalDAV specification wrt caching proxies
+
+In all this was a very productive session.
