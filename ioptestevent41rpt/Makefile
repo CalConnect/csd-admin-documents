@@ -10,6 +10,14 @@ all: $(HTML) $(XML) $(DOC)
 clean:
 	rm -f $(HTML) $(DOC) $(XML)
 
+bundle:	Gemfile Gemfile.lock
+	bundle
+
+Gemfile Gemfile.lock:
+	cp ../$^ .
+
+%.adoc:	bundle
+
 %.xml %.doc %.html: %.adoc
 	bundle exec asciidoctor -b csd -r 'asciidoctor-csd' $^ --trace
 
