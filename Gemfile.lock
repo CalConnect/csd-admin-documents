@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/riboseinc/asciidoctor-csd
-  revision: 20aa91bb0a34f4ca4de26dcf1d3a7a074ae96e43
+  revision: f101d9fcc3f6188e5fe8b80dc85eb3ab48b634d8
   specs:
     asciidoctor-csd (0.2.2)
       asciidoctor (~> 1.5.6)
@@ -32,7 +32,7 @@ GEM
       uuidtools
     asciimath (1.0.4)
     ffi (1.9.23)
-    html2doc (0.6.9)
+    html2doc (0.7.0)
       asciimath
       htmlentities (~> 4.3.4)
       image_size
