@@ -1,11 +1,10 @@
 = Report on CalConnect Conference XLI, January 31 - February 2, 2018
-:docnumber: 1801
-:ref-docnumber: CD 1801:2018
+:docnumber: CD 1801
+:copyright-year: 2018
 :language: en
 :doctype: report
 :edition: 1
 :status: published
-:copyright-year: 2018
 :revdate: 2018-03-02T00:00:00Z
 :language: en
 :title: Report on CalConnect Conference XLI, January 31 - February 2, 2018
@@ -166,7 +165,7 @@ Brief report on the status of the work.
 Maintain liaison with ISO TC 211, progress work
 
 
-== PLENARY MEETING
+== Plenary meeting
 
 * Jorte will host CalConnect XLII on June 4-8, 2018, in Tokyo, Japan.
 
@@ -174,11 +173,11 @@ Maintain liaison with ISO TC 211, progress work
 
 * A request for volunteers to host Winter 2019 and beyond was issued.
 
-== FUTURE EVENTS
+== Future events
 
 * CalConnect XLII - June 4-8, 2018 - Jorte, Tokyo, Japan
 
-* CalConnect XLIII - September 24028, 2018 - 1&1, Karlsruhe, Germany
+* CalConnect XLIII - September 24-28, 2018 - 1&1, Karlsruhe, Germany
 
 The general format of the CalConnect Week has been as below. This will be modified
 significantly for Tokyo and an entirely new format brought in for Karlsruhe in
@@ -189,7 +188,7 @@ Monday morning through Wednesday noon, Test Event and Developer’s Forum
 
 Wednesday noon through Friday afternoon, Conference
 
-== PICTURES FROM CALCONNECT XLI
+== Pictures from CalConnect XLI
 
 Pictures courtesy of Thomas Schäfer, 1&1, and Gary Schwartz.
 

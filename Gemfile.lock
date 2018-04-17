@@ -45,14 +45,10 @@ GIT
       thread_safe
       uuidtools
 
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: https://github.com/riboseinc/isodoc
+  revision: 7473a3a350eb74c383309c2702c683d0506c3a55
   specs:
-    asciidoctor (1.5.6.2)
-    asciimath (1.0.4)
-    ffi (1.9.23)
-    htmlentities (4.3.4)
-    image_size (1.5.0)
     isodoc (0.5.8)
       asciimath
       html2doc
@@ -65,6 +61,15 @@ GEM
       ruby-xslt
       thread_safe
       uuidtools
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (1.5.6.2)
+    asciimath (1.0.4)
+    ffi (1.9.23)
+    htmlentities (4.3.4)
+    image_size (1.5.0)
     liquid (4.0.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -95,6 +100,7 @@ DEPENDENCIES
   asciidoctor-csd!
   asciidoctor-iso!
   html2doc!
+  isodoc!
 
 BUNDLED WITH
    1.16.1
