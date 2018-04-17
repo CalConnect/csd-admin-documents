@@ -1,5 +1,5 @@
 SRC  := $(wildcard csd-*.adoc)
-XML := $(patsubst %.adoc,%.xml,$(SRC))
+XML  := $(patsubst %.adoc,%.xml,$(SRC))
 HTML := $(patsubst %.adoc,%.html,$(SRC))
 
 SHELL := /bin/bash
@@ -7,19 +7,18 @@ SHELL := /bin/bash
 all: $(HTML) $(XML)
 
 clean:
-	rm -f $(HTML) $(XML)
+	rm -f $(HTML) $(XML) Gemfile Gemfile.lock
 
 bundle:	Gemfile Gemfile.lock
 	bundle
 
 Gemfile Gemfile.lock:
-	cp ../$^ .
+	cp ../common/$@ .
 
-%.adoc:	bundle
-
-%.xml %.html: %.adoc
-	bundle exec asciidoctor -b csd -r 'asciidoctor-csd' $^ --trace
+%.xml %.html: %.adoc bundle
+	bundle exec asciidoctor -b csd -r 'asciidoctor-csd' $< --trace
 
 open:
 	open $(HTML)
 
+.PHONY: bundle all open
