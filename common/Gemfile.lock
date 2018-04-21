@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/riboseinc/asciidoctor-csd
-  revision: e84a093ff2fdd042c8859642ec2e5bb2250d3a08
+  revision: 0abf6d88d85dc74a5187864cf53da036075af7ab
   specs:
     asciidoctor-csd (0.2.2)
       asciidoctor (~> 1.5.6)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/asciidoctor-iso
-  revision: a80c8e4405134b4806eb60a36b3df41a7d45a620
+  revision: 0312741c647e4567c61ec779bf4ff01ac603619a
   specs:
     asciidoctor-iso (0.7.3)
       asciidoctor (~> 1.5.6)
@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/isodoc
-  revision: 7473a3a350eb74c383309c2702c683d0506c3a55
+  revision: 501d2576a38c9b22c242c9fe3c742d80eb44f33c
   specs:
     isodoc (0.5.8)
       asciimath

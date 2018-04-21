@@ -1,0 +1,43 @@
+= CalConnect Conference 41 Report
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/riboseinc/csd-public-documents
+----
+
+== Install Build Tools
+
+[source,sh]
+----
+brew install ruby
+gem install bundler
+----
+
+== Install CSD dependencies
+
+[source,sh]
+----
+pushd common
+bundle install
+popd
+----
+
+== Enter This Directory And Build!
+
+[source,sh]
+----
+pushd conference41rpt
+make clean all
+----
+
+== Open the generated HTML file
+
+[source,sh]
+----
+make open
+# or
+open *.html
+----
+
