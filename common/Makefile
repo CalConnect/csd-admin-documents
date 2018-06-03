@@ -13,10 +13,10 @@ bundle:	Gemfile Gemfile.lock
 	bundle
 
 Gemfile Gemfile.lock:
-	cp ../common/$@ .
+	ln -s ../common/$@ .
 
 %.xml %.html: %.adoc bundle
-	bundle exec asciidoctor -b csd -r 'asciidoctor-csd' $< --trace
+	bundle exec metanorma -t csd $<
 
 open:
 	open $(HTML)
