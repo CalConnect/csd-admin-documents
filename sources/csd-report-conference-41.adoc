@@ -1,16 +1,19 @@
 = Report on CalConnect Conference XLI, January 31 - February 2, 2018
-:docnumber: CD 1801
+:docnumber: 1801
 :copyright-year: 2018
 :language: en
-:doctype: report
+:doctype: administrative
 :edition: 1
 :status: published
 :revdate: 2018-03-02T00:00:00Z
-:language: en
-:title: Report on CalConnect Conference XLI, January 31 - February 2, 2018
+:published-date: 2018-03-02T00:00:00Z
 :technical-committee: CHAIRS
+:docfile: csd-report-conference-41.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
 :toc:
-:sectnumlevels: 7
 :stem:
 
 .Foreword

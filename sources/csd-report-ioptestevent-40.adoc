@@ -1,17 +1,19 @@
 = Report on Test Event and Developers Forum XL, September 25-27 2017
 :docnumber: 1706
-:ref-docnumber: CD 1706:2018
+:copyright-year: 2017
 :language: en
-:doctype: report
+:doctype: administrative
 :edition: 1
 :status: published
-:copyright-year: 2018
 :revdate: 2017-11-20T00:00:00Z
-:language: en
-:title: Report on Test Event and Developers Forum XL, September 25-27 2017
+:published-date: 2017-11-20T00:00:00Z
 :technical-committee: IOPTEST
+:docfile: csd-report-ioptestevent-40.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
 :toc:
-:sectnumlevels: 7
 :stem:
 
 .Foreword

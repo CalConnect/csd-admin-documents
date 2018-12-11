@@ -1,0 +1,39 @@
+= CalConnect Conference and IOP Testing Reports
+
+This repository contains CSD sources, and gets rendered into a Relaton collection mini-site.
+
+== Fetching the documents
+
+[source,sh]
+----
+git clone https://github.com/riboseinc/csd-public-documents
+----
+
+== Install Build Tools
+
+See https://www.metanorma.com/[Metanorma setup].
+
+
+== Build
+
+[source,sh]
+----
+make clean all
+----
+
+== Open the generated HTML index
+
+[source,sh]
+----
+open documents.html
+----
+
+== Publish
+
+[source,sh]
+----
+make publish
+----
+
+The generated HTML site will be prepared in `published/`.
+

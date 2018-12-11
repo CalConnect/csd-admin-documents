@@ -1,17 +1,19 @@
 = Report on CalConnect Conference XL, September 27-29, 2017
 :docnumber: 1705
-:ref-docnumber: CD 1705:2018
+:copyright-year: 2017
 :language: en
-:doctype: report
+:doctype: administrative
 :edition: 1
 :status: published
-:copyright-year: 2017
 :revdate: 2017-10-23T00:00:00Z
-:language: en
-:title: Report on CalConnect Conference XL, September 27-29, 2017
+:published-date: 2017-10-23T00:00:00Z
 :technical-committee: CHAIRS
+:docfile: csd-report-conference-40.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
 :toc:
-:sectnumlevels: 7
 :stem:
 
 .Foreword
