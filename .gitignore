@@ -3,6 +3,5 @@ deploy_key
 .tmp.xml
 _*images
 published/
-documents/
 documents.*
 
