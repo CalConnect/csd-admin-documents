@@ -2,20 +2,20 @@
 
 This repository contains CSD sources, and gets rendered into a Relaton collection mini-site.
 
-image:https://travis-ci.com/riboseinc/csd-public-documents.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/csd-public-documents"]
+image:https://travis-ci.com/CalConnect/csd-admin-documents.svg?branch=master["Build Status", link="https://travis-ci.com/CalConnect/csd-admin-documents"]
 
 == Access
 
 Documents in this repository are available through the deployed mini-site:
 
-* https://riboseinc.github.io/csd-public-documents/[CalConnect Conference and IOP Testing Reports]
+* https://calconnect.github.io/csd-admin-documents/[CalConnect Conference and IOP Testing Reports]
 
 
 == Fetching the documents
 
 [source,sh]
 ----
-git clone https://github.com/riboseinc/csd-public-documents
+git clone https://github.com/CalConnect/csd-admin-documents
 ----
 
 == Install Build Tools
