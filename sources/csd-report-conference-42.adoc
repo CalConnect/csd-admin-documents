@@ -1,0 +1,176 @@
+= Report on CalConnect Conference XLII, June 4 - June 8, 2018
+:docnumber: 1803
+:copyright-year: 2018
+:language: en
+:doctype: administrative
+:edition: 1
+:status: published
+:revdate: 2018-06-25T00:00:00Z
+:published-date: 2018-06-25T00:00:00Z
+:technical-committee: CHAIRS
+:docfile: csd-report-conference-42.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+:toc:
+:stem:
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+
+:sectnums!:
+== Introduction
+
+CalConnect XLII took place June 4-8, 2018, hosted by Jorte in Tokyo, Japan. The Developers Forum (Monday, Tuesday, and Wednesday morning), Data Event Summit with JEDC (the Japan Data Event Committee) (Wednesday afternoon), and Conference (late Wednesday afternoon, Thursday and Friday) were held at Jorte’s offices in Tokyo or in conference rooms in the same building.
+
+The CalConnect Conference was attended by a total of 12 people from 8 members. The Developers Forum had 7 participants from 4 members and was largely devoted to the forum rather than specific testing.
+The Conference focussed on strategic and possible work items in addition to ongoing work, and finished with the CalConnect Plenary Session on Friday afternoon. The Conference agenda with notes on the discussion topics may be found at CalConnect XLII Conference Schedule.
+
+The Data Event Summit was attended by a total of 26 people, all CalConnect participants for the conference plus 15 people from JEDC, and featured presentations from two government agencies, Sharp, and our hosts. The primary focus was Japan’s efforts to ensure open data is available from their local governments (about 1800) in a common data format, and our encouragement for them to adopt the international calendaring and scheduling standards, which would require some enhancements and joint work between us.
+
+
+:sectnums:
+== Status of documents since last conference
+
+Much of the ongoing work in CalConnect is focused on specifications and standards, many of which will become internet draft submissions to the IETF and ultimately be progressed to publication as RFCs (Proposed Standards), rather than directly published by CalConnect itself. CalConnect will also co-publish standards with other standards organizations, or self-publish as needed.
+
+Specifications in progress and not yet published are generally resident on GitHub either in our public or private areas.
+
+=== CalConnect Drafts to be Published as Informational RFCs
+
+* CalDAV Managed Attachments (TC CALENDAR)
+
+=== CalConnect Drafts in CALEXT Working Group Last Call at IETF
+
+* Event Publishing Extensions to iCalendar (TC CALENDAR)
+* Improved Support for iCalendar Relationships (TC CALENDAR
+
+
+=== CalConnect Drafts in Progress at CALEXT Working Group at IETF
+
+* JSCalendar: A JSON representation of Calendar data
+
+=== CalConnect Drafts in Progress at TZDIST-BIS Working Group at IETF
+
+* The Time Zone Information Format (TZif)
+* The Time Zone Data Distribution Service (TZDIST) Geolocate Extension
+
+=== New and Updated CalConnect Drafts at the IETF
+* Calendar Subscription Upgrades * Support for Series in iCalendar
+
+== CalConnect Liaisons
+
+CalConnect has established a formal reciprocal membership liaison with M3AAWG.
+
+CalConnect has established formal Category A Liaisons with the folllowing ISO Committees:
+
+* ISO PC 317
+* ISO TC 154
+* ISO TC 211
+* ISO TC 46
+* ISO JTC 1 SC 27
+* ISO TC 37
+
+IETF is considering reopening the TZDIST working group to deal with the new Time Zone drafts we have submitted.
+
+== General Status and Items
+
+A new TC CALSPAM has been created to work on calendar spam best practices, a joint effort with M3AAWG, and is actively working on a best practices document. The work has been at both the latest M3AAWG conference and our Tokyo conference.
+
+A new TC STREAMING has been created from the Ad Hoc previously set up. Its first task will be the devleopment of the specification.
+
+
+TC IOPTEST was closed as its function has been subsumed into the Event Planning committee and process.
+
+CalConnect is planning to resume its practice of self-publishing standards, which hasn’t been done for some time as much of its work has focused on extensions to existing IETF specifications (many of which were also developed by CalConnect). A new Ad Hoc on Publishing has been set up to review the obsolete processes and establish new ones. CalConnect also intends to begin co-publishing some documents with other organizations with which we have liaisons.
+
+The TC CHAIRS committee has been renamed the Technical Coordination Commitee to better reflect the role and responsibilities of this group.
+
+A new work area has been proposed on “Party Crashing” - event invitations can be forwarded to uninvited persons who then can spoof the the systems to gain an invitation.
+
+The work on CALSPAM has proposed a new work item on establishing a mechanism whereby users can determine where an event on their calendar came from.
+
+More discussion was held on a proposal for a completely revised conference format for CalConnect, which would offer both the Conference Track and a Technical Track as a single event with a single fee. This matter is being proposed for a one-time test at the next (Karlsruhe) event.
+
+Status provided on synchronization (time to draft a spec?), server-side subscriptions, series as an alternative to recurrences.
+
+== Future Work
+
+=== TC API
+
+Work on JSCalendar is progressing, accommodating contacts and tasks as well as events.
+
+=== TC AUTODISCOVERY
+
+Pending; Draft update in progress
+
+=== TC CALENDAR
+
+* Response tokens for Party Crashing (NWI proposal from Google)
+* CALSPAM’s proposal for storing information about how events ended up in iCalendar.
+
+=== TC DEVGUIDE
+
+* Review approach on standards
+* Move page content from Drupal to DevGuide where appropriate
+* Looking into GitHub pages (layout first, CNAME second)
+
+=== TC PUSH
+
+Draft has been submitted to the IETF; we are exploring which working group should handle it. Looking for more implementations.
+
+=== TC SHARING
+
+Annotation, subscription, server side subscription
+
+=== TC STREAMING
+
+Streaming specification
+
+=== TC TESTER
+
+Work at Karlsruhe conference.
+
+=== TC VCARD
+
+Maintain liaison with ISO TC 211, progress work
+
+
+== Plenary Meeting - Confirmed Future Events
+
+* 1&1 will host CalConnect XLIII on September 24-28, 2018, in Karlsruhe, Germany.
+* Google will host CalConnect XLIV on February 4-8, 2019, in Zürich, Switzerland.
+* You Can Book Me (YCBM) will host CalConnect XLV on June 307, 2019 in Bedford,
+England.
+
+
+== Pictures from CalConnect XLII
+
+Pictures courtesy of Thomas Schäfer, 1&1.
+
