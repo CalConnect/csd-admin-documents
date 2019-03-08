@@ -15,6 +15,7 @@
 :data-uri-image:
 :toc:
 :stem:
+:imagesdir: images/conference-41
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
@@ -194,4 +195,15 @@ Wednesday noon through Friday afternoon, Conference
 == Pictures from CalConnect XLI
 
 Pictures courtesy of Thomas Schäfer, 1&1, and Gary Schwartz.
+
+[cols="a,a"]
+|===
+
+2+|image::img_9074-31.jpg[]
+|image::img_9073-35.jpg[]
+|image::img_9077-41.jpg[]
+|image::img_9102-33.jpg[]
+|image::Yahoo-Hallway-1-37.jpg[]
+
+|===
 

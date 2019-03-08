@@ -15,6 +15,7 @@
 :data-uri-image:
 :toc:
 :stem:
+:imagesdir: images/conference-40
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
@@ -176,6 +177,18 @@ The general format of the CalConnect Week is:
 (testing, tech discussions)
 * Wednesday noon through Friday afternoon, Conference
 
-== PICTURES FROM CALCONNECT XL
+== Pictures from CalConnect XL
 
 Pictures courtesy of Thomas Schäfer, 1&1
+
+[cols="a,a"]
+|===
+
+2+|image::img_7795-29.jpg[]
+
+|image::22092477_10155728420429347_1097884688_o-37.jpg[]
+|image::img_7821-31.jpg[]
+|image::img_7827-33.jpg[]
+|image::img_7830-35.jpg[]
+
+|===

@@ -15,6 +15,7 @@
 :data-uri-image:
 :toc:
 :stem:
+:imagesdir: images/conference-43
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
@@ -187,3 +188,16 @@ Philadelphia.
 == Pictures from Calconnect XLIII
 
 Pictures courtesy of Thomas Schäfer, 1&1
+
+[cols="a,a"]
+|===
+
+|image::img_1888-59.jpg[]
+|image::img_1892-61.jpg[]
+|image::img_1919-63.jpg[]
+|image::img_1930-65.jpg[]
+|image::img_7653-57.jpg[]
+|image::IMG_7980-29.jpg[]
+
+|===
+

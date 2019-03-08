@@ -15,6 +15,7 @@
 :data-uri-image:
 :toc:
 :stem:
+:imagesdir: images/conference-42
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
@@ -173,4 +174,16 @@ England.
 == Pictures from CalConnect XLII
 
 Pictures courtesy of Thomas Schäfer, 1&1.
+
+[cols="a,a"]
+|===
+
+|image::img_0409-43.jpg[]
+|image::img_0415-51.jpg[]
+|image::img_0498-45.jpg[]
+|image::img_0504-49.jpg[]
+|image::img_0590-53.jpg[]
+|image::img_0608-55.jpg[]
+
+|===
 

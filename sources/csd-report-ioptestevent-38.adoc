@@ -1,0 +1,78 @@
+= Report on Test Event and Developers Forum XXXVIII, February 13-15, 2017
+:docnumber: 1702
+:copyright-year: 2017
+:language: en
+:doctype: administrative
+:edition: 1
+:status: published
+:revdate: 2017-03-10T00:00:00Z
+:published-date: 2017-03-10T00:00:00Z
+:technical-committee: IOPTEST
+:docfile: csd-report-ioptestevent-38.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+:toc:
+:stem:
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+== Report
+
+The event was hosted by the University of California, Irvine, in Irvine California on February 13-15, 2017
+
+The participants in this event were:
+
+* 1and1
+* AOL
+* Apple
+* FastMail
+* Google
+* SCG (Bedework)
+* Zimbra
+
+There were a number of areas some or all of us were interested in pursuing. These included:
+
+ * For the Java people bringing ourselves up to date with the latest ical4j
+
+ * Coming up with a way of handling updates to the caldav tester suite.
+
+ * Discussions on developer guide directions
+
+There were the usual crop of issues that attendees wanted to address. iMIP has been a major topic lately and the forum provided an opportunity for some members to deal with problems they had been experiencing.
+
+Ical4j has been the topic of much discussion for some months. We used this session as an opportunity to work on bringing ourselves up to date with the latest version - or at least investigating how much work it would be. 1&1, Bedework, Zimbra and AOL were present and are users of iCal4j. In the coming months we will discuss what changes we would like to see made to that library.
+
+At the Dresden meeting we decided to create a CalConnect fork of the Darwin CalDAV tester and work on some of the tests to make them more usable for non-Apple servers. In the intervening period some changes were proposed and we spent some time this meeting discussing how we might get these changes merged back into the CalConnect fork. The intent is to come up with a subset of tests that any server developer should be able to run and expect to get a 100% success rate. A number of us have localized versions of the tester and we would like to merge many of these changes into the CalConnect version so that they can benefit everybody.
+
+The meeting was a chance to carry out some of the internal changes to the developer guide that had been contemplated. These should make it easier to organize the content in the future.
+
+There was further discussion on the new data model being worked on by TC API and its JSON representation.
+
+We also spent some time talking over the issue of calendar spam and how this differs, if at all, from email spam. This allowed us to collect our thoughts ready for a wider discussion in the conference that followed. While calendar spam has not been a major ongoing issue it has already caused some problems and we need to be ready to deal with the inevitable.
