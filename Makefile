@@ -44,7 +44,7 @@ documents:
 	mkdir -p $@
 
 documents/%.xml: documents sources/%.xml
-	mv sources/$*.{xml,html,pdf,rxl} documents
+	cp sources/$*.{xml,html,pdf,rxl} documents
 
 %.xml %.html:	%.adoc | bundle
 	FILENAME=$^; \
