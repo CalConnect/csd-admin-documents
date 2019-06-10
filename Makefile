@@ -31,6 +31,15 @@ OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
 all: documents.html
 
+documents.html: documents.rxl
+	bundle exec relaton xml2html documents.rxl
+
+documents.rxl: $(OUTPUT_XML)
+	bundle exec relaton concatenate \
+	  -t $(RELATON_COLLECTION_NAME) \
+		-g $(RELATON_COLLECTION_ORG) \
+		documents $@
+
 documents:
 	mkdir -p $@
 
@@ -40,15 +49,6 @@ documents/%.xml: documents sources/%.xml
 %.xml %.html:	%.adoc | bundle
 	FILENAME=$^; \
 	${COMPILE_CMD}
-
-documents.rxl: $(OUTPUT_XML)
-	bundle exec relaton concatenate \
-	  -t $(RELATON_COLLECTION_NAME) \
-		-g $(RELATON_COLLECTION_ORG) \
-		documents $@
-
-documents.html: documents.rxl
-	bundle exec relaton xml2html documents.rxl
 
 %.adoc:
 
