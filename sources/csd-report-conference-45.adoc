@@ -4,13 +4,13 @@
 :language: en
 :doctype: administrative
 :edition: 1
-:status: draft
-:revdate: 2019-06-06T00:00:00Z
-:published-date: 2019-06-10T00:00:00Z //needs update, when publishing
+:status: published
+:revdate: 2019-07-10T00:00:00Z
+:published-date: 2019-07-10T00:00:00Z
 :technical-committee: CHAIRS
 :docfile: csd-report-conference-45.adoc
 :mn-document-class: csd
-:mn-output-extensions: xml,html,pdf
+:mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
 :toc:
@@ -48,29 +48,9 @@ This document was prepared by Technical Committee _{technical-committee}_.
 :sectnums!:
 == Introduction
 
-CalConnect XLV took place June 3-7, 2019, hosted by You Can Book Me (YCBM) in
-Bedford, United Kingdom. A public IETF calext call was held Tuesday
-afternoon during the conference. The conference was held in the Bedford
-City Center Hotel and was attended by a total of 10 people from 7
-member organizations, and 3 remote participants to the IETF calext call.
+CalConnect XLV took place June 3-6, 2019, hosted by You Can Book Me in Bedford, United Kingdom. The conference was held on Google’s premises, and was attended by a total of 13 people from 7 member organizations, plus attendees to a joint virtual working group session with the IETF CALEXT working group. Friday morning, June 7, was also available as a working session for attendees.
 
-//unchanged starting here
-
-This conference was organized along the guidelines from the
-previous conference in Karlsruhe; however, separate technical and
-general tracks were eliminated. Instead sessions were identified by
-session type. A single fee for the entire four-day conference was
-charged. Additionally, we schedule a “codefest” for Monday, 4
-February, with open attendance.
-
-The Conference focused on strategic and possible work items in
-addition to ongoing work, and finished with the CalConnect Plenary
-Session prior to lunch on Friday. Friday afternoon was scheduled
-for working sessions. The schedule was rearranged during the week
-based on input from participants. The final pre-event Conference
-agenda with notes on the discussion topics may be found at
-CalConnect XLIIV Conference Schedule.
-
+The Conference focused on strategic and possible work items in addition to ongoing work, and finished with the CalConnect Plenary Session on Thursday. The schedule was rearranged during the week based on input from participants. The final pre-event Conference agenda with notes on the discussion topics may be found at https://www.calconnect.org/events/calconnect-xlv-june-3-7-2019#conference-schedule[CalConnect XLV Conference Schedule].
 
 :sectnums:
 == Status of documents since last conference
@@ -81,51 +61,65 @@ Specifications in progress and not yet published are generally resident on GitHu
 
 ==== Published
 
+* CC/DIR 1005:2019 Guidelines for the implementation of the CalConnect Patent Policy
+
 * CC/R 18003:2019 Calendar operator practices - Guidelines to protect against calendar abuse (TC CALSPAM)
-* CC/DIR/FDS 10001:2018 CalConnect Directive: Standardization and publication
-* CC/DIR/FDS 10002:3028 CalConnect Directive: Standard document requirements
-* CC/DIR/DS 10003:02018 CalConnect Directive: Patent policy
+
+* CC/DIR 10001:2019 CalConnect Directive: Standardization and publication
+
+* CC/DIR 10002:2019 CalConnect Directive: Standard document requirements
+
+* CC/DIR 10003:2018 CalConnect Directive: Patent policy
 
 ==== Committee Drafts
 
 * CC/CD 51003 Series in iCalendar
+
 * CC/CD 51004 iCalendar Relationships
+
 * CC/CD 51005 Calendar Subscription Upgrades
+
 * CC/CD 51006 Consensus scheduling - iCalendar vPoll component
 
-=== Documents at ISO
+==== Documents at ISO
 
 * ISO/CC 19160-1 “Addressing — Digital addresses” in working draft at ISO/TC 211
-* ISO/CC 34000 “Date and time — Concepts and vocabulary” is under
-NWIP ballot at ISO/TC 154, ballot opened Feb 4 will end on April 29.
+
+* ISO/CC 34000 “Date and time — Concepts and vocabulary” is under NWIP
 
 === Documents at the IETF
 
 ==== Published as Proposed Standard
 
-* The Time Zone Information Format (TZif) RFC 8536
+* CalDAV Managed Attachments RFC 8607
 
-==== Too be Published as Informational RFCs
-
-* CalDAV Managed Attachments (TC CALENDAR)
-
-==== CalConnect Drafts in Working Group Last Call
+==== Drafts in Final Review
 
 * Event Publishing Extensions to iCalendar (TC CALENDAR)
-* Improved Support for iCalendar Relationships (TC CALENDAR)
-* JSCalendar: A JSON representation of Calendar data
-* The Time Zone Data Distribution Service (TZDIST) Geolocate Extension
 
-==== CalConnect Drafts submitted not assigned to WG
+==== Drafts in CALEXT Working Group Last Call
+
+* Improved Support for iCalendar Relationships (TC CALENDAR
+* JSCalendar: A JSON representation of Calendar data
+
+==== Assigned to CALEXT WG
 
 * CalDAV extension for scheduling controls
+* VLARM Extensions for iCalendar
+* Calendar Subscription Upgrades
 
-== CalConnect Liaisons as of June 07
+==== Pending Assignment to CALEXT WG
+
+* VPOLL: Consensus Scheduling Component for iCalendar
+* Support for Series in iCalendar
+
+
+== CalConnect Liaisons as of February 04 2019
 
 CalConnect has formal reciprocal membership liaisons with M3AAWG
 and OASIS and a strong working relationship with the IETF.
 
-CalConnect has established formal Category A Liaisons with the following ISO Committees:
+CalConnect has established formal Category A Liaisons with the ITU, and with the following ISO Committees:
 
 * ISO/IEC JTC 1/SC 27 IT Security Techniques
 * ISO/PC 317 Consumer protection: privacy by design for consumer goods and services
@@ -138,68 +132,48 @@ CalConnect has established formal Category A Liaisons with the following ISO Com
 * ISO/TC 154 Processes, data elements and documents in commerce, industry and administration
 * ISO/TC 211 Geographic information/Geomatics
 
-// adding ITU here as well
 
 == General status and items from Conference XLV
 
-The Time Zone Workshop planned by TC DATETIME was held on Tuesday afternoon.
-Subsequent steps will be determined for TC DATETIME.
 
-* Summary of event to timezonediscuss public mailing list.
-* Press release writeup for news feed.
-* Modify a system to fetch time zone data from a TZDIST server
-* Investigate whether IANA could/would operate a TZDIST server
-* Learn more about ISO TC 154 work to establish registry for time zone data
+The Ad Hoc Committee on Rich Text (in Calendar events) formed at CalConnect XLIV completed its work and disbanded prior to CalConnect XLV.
 
-An Ad Hoc Committee on Rich Text (in Calendar events) was formed
-and will conduct several calls over February and early March; the
-committee is due to finish by mid-March.
+A provisional Charter for a new TC USECASE was developed and will be completed this summer.
 
-An Ad Hoc Committee on Use Cases was formed to consider UI issues
-for displaying multiple time zones and develop best practice advice
-for UI developers.
+The Charter for TC LOCALIZATION is nearly complete and should be reviewed and adopted in the near future.
 
-The committee will develop a Charter for a new TC USECASE to be
-considered at the next CalConnect event.
+CalConnect has approved as revised the IPR and Copyright policies and will formally adopt them following this event.
 
-TC CALSPAM finished its work and will be closed following any
-updates from the next M3AAWG conference in late February. Open
-issues will be transferred to TC CALENDAR.
+Feedback on the new conference format is very positive and we will continue with this model.
 
-CalConnect has approved the new Standards Directives. Work
-continues with related items such as revised IPR and Copyright
-policies, and a co-publishing agreement with ISO and other
-organizations.
+TC PUSH has been reactivated to support movement of the specifications; the draft(s) will be updated and resubmitted.
 
-Feedback was obtained on the new conference format as used at this
-meeting.  The consensus was that identifying sessions by category
-was not as important as early descriptions of the planned sessions.
+TC-AUTODISCOVERY has been reactivated. A new draft will be published following the work on TC-PUSH.
 
-Plan for a 1-day hackathon on the Monday of the event week, with
-the conference itself Tuesday-Friday. Establish a small charge to
-give those who signed up some stake in actually coming.
 
-Start to build in more testing time as JSCalendar gets more
-traction. Way to involve non-members (perhaps via hackathon?)
+== Detailed Session Notes
 
-Advertise events (and hackathon) more to non-members.
+CalConnect Member Representatives should refer to the CalConnect XLV Conference Notes in the Conferences/CalConnect XLV folder on the CalConnect Document Repository for detailed session notes and information.
+
 
 == Plenary meeting
 
-Ad Hoc Committees on Rich Text and Use Cases approved and will
-start work immediately. Need charter for proposed TC USECASE asap.
+CalConnect will hold two rather than three events in 2020: a spring event in April and an autumn event in late September/early October. Several participants noted that this would definitely help planning for an attending CalConnect events going forward.
 
-TC PUSH to be reactivated.
+Strong interest in using Zoom in place of regular conference calls for committee calls; will try with TCC and TC-DEVGUIDE calls following the event.
 
-TC CALSPAM will be closed.
+Joint Working Group meeting with IETF CALEXT was successful. Plan to do another in conjunction with CalConnect XLVI in October. Also plan on doing Working Group meeting with ISO/TC 154 working group.
 
-TC LOCALIZATION has not moved forward at this point.
+Recommend referring to ourselves as “CalConnect” and not always add “The Calendaring and Scheduling Consortium” as the latter doesn’t reflect our full scope and future interests.
 
-== confirmed future events
+== Confirmed Future Events
 
 * FastMail will host CalConnect XLVI on October 7-11, 2019 in Philadelphia, USA.
 
-* cronofy will host CalConnect XLVII on April 20-24, 2020 in Nottingham, United Kingdom.
+* Cronofy will host CalConnect XLVII on April 20-24, 2020 in Nottingham, United
+Kingdom.
+
+* CalConnect XLVIII will be in Autumn 2020, host, location and exact dates TBD.
 
 == Pictures from CalConnect XLV
 
