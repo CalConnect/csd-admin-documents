@@ -161,3 +161,4 @@ published: documents.html
 	cp -a documents $@/ && \
 	cp $< $@/index.html; \
 	if [ -d "sources/images" ]; then cp -a sources/images $@/; fi
+
