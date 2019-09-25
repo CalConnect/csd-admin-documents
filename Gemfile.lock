@@ -17,6 +17,9 @@ GEM
     git (1.5.0)
     html2doc (0.8.12)
       asciimath (~> 1.0.7)
+    git (1.5.0)
+    html2doc (0.8.11)
+      asciimath (~> 1.0.7)
       htmlentities (~> 4.3.4)
       image_size
       mime-types
@@ -130,7 +133,6 @@ GEM
     metanorma-ogc (0.1.4)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
-      iso-639
       isodoc (~> 0.10.0)
       metanorma-standoc (~> 1.2.0)
       ruby-jing
