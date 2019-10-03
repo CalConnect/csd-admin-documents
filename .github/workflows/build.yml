@@ -39,7 +39,10 @@ jobs:
       - name: Metanorma compile
         env:
           JAVA_OPTS: "java.awt.headless=true"
+          NVM_DIR: "~/.nvm"
         run: |
+          source ${NVM_DIR}/nvm.sh
+          nvm --version
           make clean all publish
       - name: deploy-to-gh
         if: github.ref == 'refs/heads/master'
