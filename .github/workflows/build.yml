@@ -43,7 +43,6 @@ jobs:
           make clean all publish
       - name: deploy-to-gh
         if: github.ref == 'refs/heads/master'
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
         GH_DEPLOY_KEY: ${{ secrets.GH_DEPLOY_KEY }}
         GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
