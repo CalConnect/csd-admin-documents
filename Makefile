@@ -53,7 +53,7 @@ documents.rxl: $(XML)
 	bundle exec relaton concatenate \
 	  -t "$(shell yq r metanorma.yml relaton.collection.name)" \
 		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
-		documents $@
+		-n documents $@
 
 documents.html: documents.rxl
 	bundle exec relaton xml2html documents.rxl
@@ -105,7 +105,8 @@ $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 open: open-html
 
 clean:
-	rm -rf documents documents.html documents.rxl published *_images $(OUT_FILES)
+	rm -rf documents documents.html documents.rxl published \
+		*_images sources/*.html sources/*.pdf sources/*.rxl $(OUT_FILES)
 
 bundle:
 	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
