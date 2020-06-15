@@ -5,16 +5,14 @@
 :doctype: administrative
 :edition: 1
 :status: published
-:revdate: 2017-03-08T00:00:00Z
-:published-date: 2017-03-08T00:00:00Z
+:revdate: 2017-03-08
+:published-date: 2017-03-08
 :technical-committee: CHAIRS
 :docfile: csd-report-conference-38.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
-:toc:
-:stem:
 :imagesdir: images/conference-38
 
 .Foreword

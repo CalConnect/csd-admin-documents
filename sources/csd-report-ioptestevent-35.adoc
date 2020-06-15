@@ -5,16 +5,14 @@
 :doctype: administrative
 :edition: 1
 :status: published
-:revdate: 2016-02-17T00:00:00Z
-:published-date: 2016-02-17T00:00:00Z
+:revdate: 2016-02-17
+:published-date: 2016-02-17
 :technical-committee: IOPTEST
 :docfile: csd-report-ioptestevent-35.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
-:toc:
-:stem:
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is a global non-profit
