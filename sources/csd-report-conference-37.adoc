@@ -42,8 +42,6 @@ of users and does not constitute an endorsement.
 
 This document was prepared by Technical Committee _{technical-committee}_.
 
-
-:sectnums!:
 == Introduction
 
 CalConnect XXXVII took place on September 14-16, 2016, hosted by dmfs in Dresden, Germany.  The CalConnect Test Event (Monday,  Tuesday, and Wednesday morning) and Conference (Wednesday afternoon, Thursday and Friday) were held at Schloss Eckberg on the Elbe River.
