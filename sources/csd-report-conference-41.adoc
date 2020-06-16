@@ -59,8 +59,6 @@ work, and finished with the CalConnect Plenary Session on Friday afternoon. The
 Conference agenda with notes on the discussion topics may be found at CalConnect
 XLI Conference Schedule.
 
-
-:sectnums:
 == Status of documents since last conference
 
 Much of the ongoing work in CalConnect is focused on specifications to become

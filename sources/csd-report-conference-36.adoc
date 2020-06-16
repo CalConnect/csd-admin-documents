@@ -51,8 +51,6 @@ The CalConnect Conference was attended by 22 people from 15 members,  plus 7 obs
 
 The Conference focussed on strategic and possible work items more than ongoing work, in accordance with our new format, and finished with the CalConnect Plenary Session on Friday afternoon.  The Conference agenda with notes on the discussion topics may be found at CalConnect XXXVI Conference Schedule.
 
-
-:sectnums:
 == Status of documents since last conference
 
 Much of the ongoing work in CalConnect is focused on specifications to become internet draft submissions to the IEETF and ultimately be progressed to publication as RFCs (Proposed Standards), rather than directly published by CalConnect itself.

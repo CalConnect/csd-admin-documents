@@ -49,8 +49,6 @@ CalConnect XXXVIiI took place on February 15-17, 2017, hosted by the University 
 The CalConnect Conference was attended by 21 people from 13 members The Test Event had 13 participants from 8 members.
 
 The Conference focussed on strategic and possible work items in addition to ongoing work, and finished with the CalConnect Plenary Session on Friday afternoon.  The Conference agenda with notes on the discussion topics may be found at CalConnect XXXVIII Conference Schedule.
-
-:sectnums:
 == Status of documents since last conference
 
 Much of the ongoing work in CalConnect is focused on specifications to become

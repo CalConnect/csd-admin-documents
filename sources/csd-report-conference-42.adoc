@@ -51,8 +51,6 @@ The Conference focussed on strategic and possible work items in addition to ongo
 
 The Data Event Summit was attended by a total of 26 people, all CalConnect participants for the conference plus 15 people from JEDC, and featured presentations from two government agencies, Sharp, and our hosts. The primary focus was Japan’s efforts to ensure open data is available from their local governments (about 1800) in a common data format, and our encouragement for them to adopt the international calendaring and scheduling standards, which would require some enhancements and joint work between us.
 
-
-:sectnums:
 == Status of documents since last conference
 
 Much of the ongoing work in CalConnect is focused on specifications and standards, many of which will become internet draft submissions to the IETF and ultimately be progressed to publication as RFCs (Proposed Standards), rather than directly published by CalConnect itself. CalConnect will also co-publish standards with other standards organizations, or self-publish as needed.
