@@ -31,14 +31,7 @@ jobs:
           echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
           apt-get install -y ttf-mscorefonts-installer
           curl -Ls https://raw.githubusercontent.com/metanorma/vista-fonts-installer/master/vista-fonts-installer.sh | bash
-      - uses: actions/setup-go@v2-beta
-        with:
-          go-version: '^1.13.1'
-      - name: Install yq
-        run: |
-          GO111MODULE=on go get github.com/mikefarah/yq/v3
-          ln -s $GOPATH/bin/yq /usr/local/bin/yq
-      - name: Instal gems from local Gemfile
+      - name: Install gems from local Gemfile
         run: |
           curl -LO --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
       - name: Build document in the Metanorma container
@@ -47,11 +40,11 @@ jobs:
           LANG: C.UTF-8
           LANGUAGE: C.UTF-8
         run: |
-          make clean all publish
+          metanorma site generate . -c metanorma.yml
       - uses: actions/upload-artifact@master
         with:
-          name: published
-          path: published
+          name: site
+          path: site
 
   deploy-gh-pages:
     if: github.ref == 'refs/heads/master'
@@ -61,12 +54,12 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/download-artifact@v1
       with:
-        name: published
+        name: site
     - name: Deploy to GH Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.GH_DEPLOY_KEY }}
-        publish_dir: ./published
+        publish_dir: ./site
         force_orphan: true
         user_name: ${{ github.actor }}
         user_email: ${{ format('{0}@users.noreply.github.com', github.actor) }}

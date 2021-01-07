@@ -8,7 +8,6 @@
 :revdate: 2018-10-23
 :published-date: 2018-10-23
 :technical-committee: CHAIRS
-:docfile: csd-report-conference-43.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:

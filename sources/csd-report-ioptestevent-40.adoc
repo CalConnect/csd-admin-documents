@@ -8,7 +8,6 @@
 :revdate: 2017-11-20
 :published-date: 2017-11-20
 :technical-committee: IOPTEST
-:docfile: csd-report-ioptestevent-40.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:

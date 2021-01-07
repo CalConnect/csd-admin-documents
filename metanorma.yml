@@ -1,8 +1,28 @@
 ---
 metanorma:
-  deploy:
-    email: "ci@metanorma.org"
+  source:
+    files:
+      - sources/csd-report-conference-36.adoc
+      - sources/csd-report-conference-37.adoc
+      - sources/csd-report-conference-38.adoc
+      - sources/csd-report-conference-39.adoc
+      - sources/csd-report-conference-40.adoc
+      - sources/csd-report-conference-41.adoc
+      - sources/csd-report-conference-42.adoc
+      - sources/csd-report-conference-43.adoc
+      - sources/csd-report-conference-44.adoc
+      - sources/csd-report-conference-45.adoc
+      - sources/csd-report-ioptestevent-35.adoc
+      - sources/csd-report-ioptestevent-36.adoc
+      - sources/csd-report-ioptestevent-37.adoc
+      - sources/csd-report-ioptestevent-38.adoc
+      - sources/csd-report-ioptestevent-39.adoc
+      - sources/csd-report-ioptestevent-40.adoc
+      - sources/csd-report-ioptestevent-41.adoc
+      - sources/csd-report-ioptestevent-42.adoc
+
 relaton:
   collection:
     name: CalConnect Conference and IOP Testing Reports
     organization: CalConnect
+
