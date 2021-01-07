@@ -1,0 +1,43 @@
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Conference XLIII, September 24 - September 27, 2018</title>
+<docidentifier type="CalConnect">CC/A 1805:2018</docidentifier>
+<docnumber>1805</docnumber>
+<date type="published">
+<on>2018-10-23</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2018-10-23</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2018</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>CHAIRS</committee>
+</editorialgroup>
+</ext>
+</bibdata>

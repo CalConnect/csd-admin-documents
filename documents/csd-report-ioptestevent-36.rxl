@@ -1,0 +1,43 @@
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Interoperability Test Event XXXVI, April 18-19, 2016</title>
+<docidentifier type="CalConnect">CC/A 1604:2016</docidentifier>
+<docnumber>1604</docnumber>
+<date type="published">
+<on>2016-05-31</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2016-05-31</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2016</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>IOPTEST</committee>
+</editorialgroup>
+</ext>
+</bibdata>

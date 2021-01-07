@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csd-standard xmlns="https://www.metanorma.org/ns/csd" type="presentation" version="1.6.2">
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on Test Event and Developers Forum XL, September 25-27 2017</title>
+<docidentifier type="CalConnect">CC/A 1706:2017</docidentifier>
+<docnumber>1706</docnumber>
+<date type="published">
+<on>2017-11-20</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2017-11-20</revision-date>
+</version>
+<language current="true">en</language>
+<script current="true">Latn</script>
+<status>
+<stage language="">published</stage>
+</status>
+<copyright>
+<from>2017</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A" language="">administrative</doctype>
+<editorialgroup>
+<committee>IOPTEST</committee>
+</editorialgroup>
+</ext>
+</bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Table of contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Appendix</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="term_defined_in" language="en">[term defined in %]</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="subject" language="en">Subject</localized-string><localized-string key="inherits" language="en">Inherits</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_8c82d3b3-4e35-470e-a042-0d17e60d5119">© 2017 The Calendaring and Scheduling Consortium, Inc. </p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_dcabc8a2-99b4-4e07-8937-f48b5d579090">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+    <clause>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br/>
+        McKinleyville<br/>
+        California 95519<br/>
+        United States of America<br/>
+        <br/>
+        <link target="mailto:copyright@calconnect.org">copyright@calconnect.org</link><br/>
+        <link target="www.calconnect.org">www.calconnect.org</link>
+      </p>
+    </clause>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_3a102b94-e47d-4ebe-988b-d33f955d7089" obligation="informative"><title>Foreword</title><p id="_64395c96-b7c6-47ac-898b-102d7f391653">The Calendaring and Scheduling Consortium (“CalConnect”) is a global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.</p>
+<p id="_0fc9861b-0349-4802-98fb-37978fe5b028">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+<p id="_d69a5ad6-a817-4031-a686-18321ea79010">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.</p>
+<p id="_d35aeefb-a9ba-4169-8550-57798f2a111a">In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+<p id="_ece3e075-1f2c-4ee7-8d61-50851fb8b716">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+<p id="_083a1975-8c8a-4b76-a4f0-471c41b13273">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+<p id="_1cfa3c77-f48b-4823-9b57-0769f0bc5854">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
+<clause id="_report" obligation="normative"><title depth="1">1.<tab/>Report</title><p id="_f66ebefe-aab3-40b5-9eca-29c8837accd0">The event was hosted by Open-Xchange in Cologne, Germany on September 25-27,
+2017.</p>
+<p id="_5b4a5c88-6bd9-4850-aec3-8eb0082d1a0b">In attendance for this interoperability event and developers forum were:</p>
+<ul id="_14248c6f-5c5b-4de6-894b-745f53e9a440">
+<li>
+<p id="_8b2114d2-c9f7-4c3d-9b4a-44fca684ab6d">Mike Douglass Spherical Cow Group — managing the event</p>
+</li>
+<li>
+<p id="_63d4b319-28b4-4a83-8670-accad5dc2ec8">Ken Murchison, Robert Stepanek for Fastmail</p>
+</li>
+<li>
+<p id="_d89ec68c-370d-4660-96f2-88ab95fc0327">Thomas Schäfer for 1&amp;1</p>
+</li>
+<li>
+<p id="_c9b72155-1f18-47dc-b8c2-1e4bc98cf30f">Marten Gajda for dmfs</p>
+</li>
+<li>
+<p id="_73388316-3d06-432f-84c3-7b9531ebdf9b">Gren Eliot for Zimbra</p>
+</li>
+<li>
+<p id="_3daded49-8a3c-460d-a2c0-a1100f068919">Ralf Becker for eGroupware</p>
+</li>
+<li>
+<p id="_b3662f1f-2c67-48af-8976-b29e7732c698">Martin Herfurth and Tobias Friedrich for Open-Xchange</p>
+</li>
+<li>
+<p id="_107a50fc-6661-422e-b03e-38cc454b5625">Peter Tam for Ribose</p>
+</li>
+</ul>
+<p id="_c8ebd50d-3559-4b4f-8577-8a28aebeee7c">There was a significant amount of discussion around the new JSCalendar draft which also
+spilled over into discussions on vCard. The JSCalendar specification is now felt to be relatively
+stable and as yet there are few comments on the draft from outside CalConnect.The IETF will
+be contacted to see if we can move this into a working group.</p>
+<p id="_47a18760-0366-4ef8-83ab-a8a834587d97">There were some discussions about the relative merit of multiple RFCs for different aspects of
+the standard (events v tasks) as against a single all encompassing draft.</p>
+<p id="_58c15b1d-3063-4619-84b9-aea050f00cb3">This led on to a discussion of the contacts api and the desire to come up with a format for
+contacts that is based on the JSCalendar work. One idea is to define a common data model for
+contacts, independent from data format and exchange protocols. Robert and Peter will share
+the current work documents to see what’s the overlap.</p>
+<p id="_0937bf53-b805-4699-93ab-720c7d41e061">Additionally Peter has been working on a GraphQL-based contacts API. The intent is to propose
+this as a standard at some point.</p>
+<p id="_b5a849eb-2380-4cd5-ba83-706caa1eeae0">FastMail with the Cyrus server worked on subscription upgrade with dmfs and successfully
+tested with WebCal-Sync. It should be noted how recurrence overrides are handled. Some
+additional points on subscription upgrade:</p>
+<ul id="_640ab999-81e0-47ca-b8b8-238846f96e1f">
+<li>
+<p id="_f9fbfe06-ea5f-4194-8b03-6f9cab498f6f">Prefer=minimal will cause VTIMEZONEs to NOT be returned in subscription
+upgrade. It can be overridden by using CalDAV-Timezones:T</p>
+</li>
+<li>
+<p id="_ead24639-8b26-4e8f-8fbd-e0360ad31b3b">Realized that CalDAV-Timezones SHOULD/MUST be included in Vary header
+when server supports TZ-by-ref and subscription upgrade
+There was some work done switching DEVGUIDE from old to new infrastructure. This required
+a DNS change and bugfixing redirects.</p>
+</li>
+</ul>
+<p id="_cb6fa162-db5e-4861-9f50-16891a29acd8">There was a lot of work around the CalDAV tester. Apple is no longer maintaining this tool so we
+are free to apply our own updates to a CalConnect maintained copy. There was some
+discussion around how we should avoid conflicts — the suggestion is to create a ticket for a test
+or test you want to work on. Committing back to the core should be fine at least at this stage.</p>
+<p id="_be9aa29e-924b-4dc2-b8af-bcabb3edbeba">Some work was started on trying to build bootstrap code into the tester. For many servers this
+will remove the need fo a lot of configuration as the tester should be able to discover most of
+what it needs.</p>
+<p id="_c2c84616-dd52-4575-9e00-1c97dbf31eeb">Open-Xchange had been discouraged by the enormous number of failures in the original tester.</p>
+<p id="_af5d9b55-26b2-469a-8079-4cca941f18f2">During this session they managed to get much further — concentrating on a smaller number fo
+tests.</p>
+<p id="_08f6ffd6-6b9b-4dfd-8e8b-4767a138df16">Ralf for eGroupware has implemented caldavtester — a wrapper around the Apple originated
+tester. This provides a GUI, options for selecting tests and features to determine what changes
+happened as a result of server updates. Some work was done to add new feature to that tool.</p>
+<p id="_bcc89b72-22c1-4b90-bac2-a4af3bde3dfe">A number of changes were also made to some tests to make them less Apple specific — fro
+example, redirects now accept all valid http redirect codes.
+As the large number of errors were reduced we all find that errors in our own server code
+surface.</p>
+<p id="_2bc4ff6e-1a49-4b03-b21a-088b546dde5c">Zimbra also did some work on fixing an issue with shared addressbooks not visible from iOS /
+CardDAV-Sync on Android.</p>
+<p id="_b71d7575-cb4a-498c-a378-dbbad8846857">Further discussions covered:</p>
+<ul id="_288fcc99-21a1-4f0b-9a54-92408b1ce513">
+<li>
+<p id="_3cb7e224-c635-4624-8054-71bfd472e37b">iTip improvements: new response for scheduling requests</p>
+</li>
+<li>
+<p id="_a40abcb5-55e1-4dc3-9011-8b5ba87d0b20">Optimistic updates</p>
+</li>
+<li>
+<p id="_ae291072-ba07-4661-8bbf-8ed442bfcbad">The need to check the CalDAV specification wrt caching proxies</p>
+</li>
+</ul>
+<p id="_621bc8f4-54c3-4fb5-a002-05302c9ab755">In all this was a very productive session.</p></clause></sections>
+</csd-standard>

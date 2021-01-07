@@ -1,0 +1,22 @@
+/__w/csd-admin-documents/csd-admin-documents/site/documents/csd-report-ioptestevent-36.err errors
+
+
+== Style
+
+(): Prefatory material must be followed by (clause) Scope
+(): Normative References must be followed by Terms and Definitions
+(): Scope must occur before Terms and Definitions
+(): Only annexes and references can follow clauses
+(): Document must include (references) Normative References
+(): Final section must be (references) Bibliography
+(XML Line 000096): Hanging paragraph in clause
+	<clause id="_discussions_and_issues_raised" obligation="normative"><title>Discussions and issues raised</title><p id="_55cba14a-9c29-443e-b343-226e9bc6044d">During discussions a number of issues were raised. These included:</p>
+	<clause id="_timezones" obligation="normative">
+	<title>Timezones</title>
+	<p id="_855c3112-e597-4ae2-a170-c6cd763be3c9">Do servers handle timezone definition changes — e.g. recalculate recurrences based on new timezone: the answer is usually not.</p>
+	</clause>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000244:16): element "csd-standard" incomplete; missing required element "bibliography"

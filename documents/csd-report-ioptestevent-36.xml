@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csd-standard xmlns="https://www.metanorma.org/ns/csd" type="semantic" version="1.6.2">
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Interoperability Test Event XXXVI, April 18-19, 2016</title>
+<docidentifier type="CalConnect">CC/A 1604:2016</docidentifier>
+<docnumber>1604</docnumber>
+<date type="published">
+<on>2016-05-31</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2016-05-31</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2016</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>IOPTEST</committee>
+</editorialgroup>
+</ext>
+</bibdata>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_dcf1487f-65cf-4ac7-b68e-5a754cf3028d">© 2016 The Calendaring and Scheduling Consortium, Inc. </p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_3da9f3de-a229-4b7a-ae8f-6afcce6545ef">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+    <clause>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br/>
+        McKinleyville<br/>
+        California 95519<br/>
+        United States of America<br/>
+        <br/>
+        <link target="mailto:copyright@calconnect.org">copyright@calconnect.org</link><br/>
+        <link target="www.calconnect.org">www.calconnect.org</link>
+      </p>
+    </clause>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_fc01506a-053e-4610-aab3-5af57f80d64e" obligation="informative"><title>Foreword</title><p id="_08b0e3a8-bf7e-46e8-910a-9e106378d5ad">The Calendaring and Scheduling Consortium (“CalConnect”) is a global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.</p>
+<p id="_ea33af55-05b6-47db-b979-ff995db47ab0">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+<p id="_57f09227-8253-4739-b276-73a8f4084549">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.</p>
+<p id="_75ea2cdc-03a7-4d58-a1f9-98ac1b622b48">In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+<p id="_a78704b8-a456-44d8-933f-712306bbf210">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+<p id="_a515a9f5-2bde-4656-a327-41003c92f693">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+<p id="_ea30a9b7-fbbf-448c-b890-92d062288cb6">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
+<clause id="_report" obligation="normative"><title>Report</title><p id="_9ce8b2ea-90a2-404b-9894-65dbf87912b4">The Calconnect interoperability event was hosted by Ribose and OGCIO at Cyberport in Hong Kong on April 18 and 19, 2016.</p>
+<p id="_9c3f2a6c-a6ed-4abd-ba44-9f52c723255d">The event at HongKong continued our move to a more forum like approach, combining testing of new and standard calendar features with a number of in-depth discussions.</p>
+<p id="_a1721046-c145-49ef-90fc-2b47aba3e26b">The following organizations were attending</p>
+<ul id="_db3db90f-dcfa-4f69-9e4d-287ef1cbb003">
+<li>
+<p id="_2d264b08-9ba2-401e-94ae-4756edfea78e">dmfs GmbH (formerly SmoothSync)</p>
+</li>
+<li>
+<p id="_ebe05c39-d062-446a-a73c-efa90d26cdd7">FastMail</p>
+</li>
+<li>
+<p id="_5f7db932-8936-4497-9c92-d2876e1789d7">Fruux</p>
+</li>
+<li>
+<p id="_40c55bfd-82ab-4479-8c8e-00ac90a9e69d">Google</p>
+</li>
+<li>
+<p id="_c88690eb-6d01-4a2a-af38-d23cd55a8cd9">Open-change</p>
+</li>
+<li>
+<p id="_f0a09c97-e709-4783-bc47-872781026463">Philipp Gewischt</p>
+</li>
+<li>
+<p id="_60b945f0-5de8-4b26-9444-6751c5e65f51">Ribose</p>
+</li>
+<li>
+<p id="_29d28010-5ff2-41df-853e-12514e75b3ee">Spherical Cow Group</p>
+</li>
+</ul>
+<p id="_eaea893d-fa79-4499-806d-70539e15035f">A major topic for this event — as for the last one — is trying to make iMip more reliable. In some cases it is the representation of the data which is the issue, other times it is incorrect handling of iTip.</p>
+<p id="_d5744cc6-cbac-4e7e-8a77-c8f40c10953b">Another topic which keeps coming back is dealing with differing interpretations of the iCalendar specification regarding recurrences.</p></clause>
+<clause id="_discussions_and_issues_raised" obligation="normative"><title>Discussions and issues raised</title><p id="_55cba14a-9c29-443e-b343-226e9bc6044d">During discussions a number of issues were raised. These included:</p>
+<clause id="_timezones" obligation="normative">
+<title>Timezones</title>
+<p id="_855c3112-e597-4ae2-a170-c6cd763be3c9">Do servers handle timezone definition changes — e.g. recalculate recurrences based on new timezone: the answer is usually not.</p>
+</clause>
+<clause id="_vjournal" obligation="normative"><title>VJOURNAL</title><p id="_57d16c0c-36f7-4b16-b706-f6544bab27f8">There was a proposal for adding an additional status to indicate “ARCHIVED”</p>
+<p id="_fa375f03-3386-442e-a3b3-de58bb7088e0">Suggested alternatives: use different collection, or perhaps a structured category (this is also backwards-compatible, as opposed to a new status)</p>
+<p id="_42132108-19d6-4157-a530-958bff58b3da">There is also a lack of rich text support — but that’s also true for events and tasks — this should also be addressed — see “Styled-Description” in <link target="https://www.ietf.org/archive/id/draft-douglass-calendar-extension-04.txt"/></p>
+<p id="_1d98bf59-4bc5-495c-bec4-2c213808ef94">The general feeling is that JOURNAL is not heavily used.</p></clause>
+<clause id="_managed_attachments" obligation="normative">
+<title>Managed attachments</title>
+<p id="_c4a8efc9-1d21-46a1-98ef-0b553a4fab17">Problem: we cannot add an attachment right away together with an event with managed attachments — we would have to first add an event, than once it synced and we know the uid we can add an attachment.</p>
+</clause>
+<clause id="_support_for_wiping_devices_raised_by_marten_from_dmfs" obligation="normative"><title>Support for wiping devices (Raised by Marten from dmfs)</title><p id="_a8f14eba-1f99-4402-958a-eb030ea82d6e">Do we need a special operation?</p>
+<p id="_5753d8ac-bef3-4047-82a1-1222f9d71d7b">The way to go is to use per-device passwords (or OAuth to get device-specific markers) and return empty collections on the first sync.</p>
+<p id="_ba769ef0-87fd-481c-858a-86a4168ce658">This last point led to a discussion on client authentication and whether we could perhaps support open connect. See</p>
+<ul id="_bbfb2740-7745-4a83-9520-446bd53197e7">
+<li>
+<p id="_bbbb47c5-5dcc-4d2d-b54d-8dbee0c6a275">
+<link target="https://tools.ietf.org/html/rfc7591"/>
+</p>
+</li>
+<li>
+<p id="_45b63e9c-fc7d-4251-a205-a16220ef5fb4">
+<link target="http://openid.net/connect/"/>
+</p>
+</li>
+</ul></clause></clause>
+<clause id="_new_api_discussion" obligation="normative"><title>New API discussion</title><p id="_e7e77b57-98c7-4d3b-83d2-c632093bee44">There is a new format proposal
+    <link target="https://github.com/CalConnect/API/blob/master/CalendarEvent.mdwn"/></p>
+<p id="_65dbe583-2c4f-4a22-b24e-8e6b0458a688">Some of the api issues that were discussed were</p>
+<ul id="_373b1aed-901a-4be5-b863-0ed74724d787">
+<li>
+<p id="_bce35ae3-1c5e-48a2-9fb6-1fea1bb6e93a">Structured location &amp; structured data</p>
+</li>
+<li>
+<p id="_2ebf0507-3865-4542-bbc7-4647377907d2">Alerts and defaults support, have a separate field for defaults</p>
+</li>
+<li>
+<p id="_acb1485b-b857-44a1-894b-7cf67615edba">isAcknowledged — as currently is it would cause gradual expansion of alerts on the instances; solution: make isAcknowledged store not boolean but the last recurrence instance for which the alert was acknowledged, and only store it on the base range, not on the instances (unless the instance has override alerts).</p>
+</li>
+<li>
+<p id="_532ae719-b5a6-4d0d-8a56-6458f29a5642">Attachments</p>
+</li>
+<li>
+<p id="_a7117a4f-96dd-4789-912a-398980c4d884">Multi-language support — to group localizations under a “localize” component</p>
+</li>
+<li>
+<p id="_db8a5724-6805-49a7-a144-7768adc9bfea">Custom properties representation</p>
+<ul id="_c0c7245f-30c2-450b-b32c-5efadb6fce0b">
+<li>
+<p id="_e10bb7f1-0cf1-4477-8d38-8cea0306cb67">Should we use a special prefix (like the X-)? The problem is that once use of a property is widespread enough a property’s custom name is “cut in stone”, since everyone’s using it.</p>
+</li>
+<li>
+<p id="_3500c9af-fbf5-49fb-8329-ca904e95d99d">Maybe a special string namespace/registry with easy way of claiming?</p>
+</li>
+<li>
+<p id="_50ae978d-7c8d-4e38-87ae-c8fce7cb4614">URLs (with domain names)?</p>
+</li>
+</ul>
+</li>
+</ul>
+<p id="_5f36d838-0fa2-4050-bcf6-7d26e79d64f6">On recurrences there was a discussion on the idea of excluding certain instances based on another event(s)</p>
+<p id="_2cf60b0a-5793-4e7e-9cda-e21405f18256">The start and end timezones are expressed through locations: first one corresponds to start, last — to end. The event timezone is independent.</p></clause>
+<clause id="_issues_found_during_testing" obligation="normative"><title>Issues found during testing</title><p id="_1868dbc0-849b-4117-a89c-ee09a6e51c59">These included:</p>
+<p id="_3cb7034d-6586-4a22-973a-802d91f98724">Missing timezones in ICS for single events.</p>
+<p id="_9a23adc9-c64c-43bf-b33d-b55410c177b7">When the recurrence rule doesn’t match the first start then some services silently move the first start to the first actual occurrence (which seems reasonable)</p>
+<p id="_d8056082-451e-4c31-aaad-a9039a208809">Moving a recurring instance into a different day did not work correctly.</p>
+<p id="_eaa6d57c-c8b4-43ad-afe8-fab8a1b5febb">Timezone customization is not set for events (at least recurring) sent through iMIP (although the timezone is saved).</p>
+<p id="_70968254-1a3a-497c-8ebf-0ac2c9b29e97">Some clients were mishandling sequence numbers</p>
+<p id="_9b0abb2f-33e7-42ad-bc7a-a7e1bf432dea">Create a recurring event in the future, save and send invitations</p>
+<ul id="_5d7c0b03-aec3-4969-bfde-5a19b73e8a92">
+<li>
+<p id="_b14710a8-3a14-4492-bb1a-faefd0cb71c4">“Add to Calendar” set a response, e.g. Yes</p>
+</li>
+<li>
+<p id="_d01c4b99-3a40-4cbf-bdfe-c98d4ae36b19">Move an exception to a different time (again, send updates)</p>
+</li>
+<li>
+<p id="_01870410-2e4e-4440-be7e-c4eefeffd97d">“Update Calendar” set a response, e.g. Maybe</p>
+</li>
+<li>
+<p id="_d67376aa-870a-4ed5-9ba5-c65433a16600">Result: the response is discarded as outdated</p>
+</li>
+</ul>
+<p id="_140667c3-2cb0-4547-b75e-b191d61eb7fe">Some servers don’t send invitations for past events even when the user is explicitly asked whether to send or not and says yes.</p>
+<p id="_2fae4a14-46c9-4b34-9865-a95311867b95">There were problems with autodiscovery</p>
+<p id="_2dcd4dd9-86c0-4fc5-849e-73a3cf010069">Some issues discovered and questions about Android clients:</p>
+<ul id="_94f1e551-72dd-49c9-9c07-810197660495">
+<li>
+<p id="_8b754a1b-eb13-4179-884f-2ed7e79839bf">may only sync 1 year of data</p>
+</li>
+<li>
+<p id="_607cfd3a-16fd-4803-9e58-a1dcdec15442">attachments first appear and then disappear again</p>
+</li>
+<li>
+<p id="_e17fe6b5-7eef-40c0-92d1-d5a924bfa5ba">Is CalDAV syncing support in the future?</p>
+</li>
+<li>
+<p id="_7969ffec-0aa1-4057-809d-a07b412ff500">Android is missing new features or bugs, e.g.:</p>
+<ul id="_6ece4ef3-c7f3-4c03-aed4-6e45fc011ec5">
+<li>
+<p id="_73acd856-b142-4bf7-ae5b-7cd302061d21">bad recurrence expansions</p>
+</li>
+<li>
+<p id="_81e1a83c-2ba8-4c19-addc-665c36a27a24">empty recurring events (when all instances are cancelled)</p>
+</li>
+</ul>
+</li>
+</ul>
+<p id="_e4aa914d-90a0-4ea0-9608-8b35004837bf">Client iMip bug: invitations to single instances of a recurring event are not handled properly</p>
+<p id="_5fef9cdd-6b0c-4308-897f-6d110abeb8b6">Server iMip bug:
+Have a recurring event with one exception moved, then invite an attendee — the invitation only contains the series but not the exception</p>
+<p id="_31cdbd5b-37f4-4925-961b-bcb175244a60">An interesting fact was noted: for recurring events where the recurrence doesn’t match the start date — between Apple, FastMail, Google and Open-Xchange these are all expanded differently (3 different behaviors).</p></clause></sections>
+</csd-standard>

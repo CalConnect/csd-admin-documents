@@ -1,0 +1,43 @@
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Conference XXXVIII, February 15-17, 2017</title>
+<docidentifier type="CalConnect">CC/A 1701:2017</docidentifier>
+<docnumber>1701</docnumber>
+<date type="published">
+<on>2017-03-08</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2017-03-08</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2017</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>CHAIRS</committee>
+</editorialgroup>
+</ext>
+</bibdata>

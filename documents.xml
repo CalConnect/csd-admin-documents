@@ -1,0 +1,847 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>CalConnect Conference and IOP Testing Reports</title><contributor><role type='author'/><organization><name>CalConnect</name></organization></contributor><relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Interoperability Test Event XXXV, January 11-13, 2016</title>
+  <uri type="xml">documents/csd-report-ioptestevent-35.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-35.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-35.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-35.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1602:2016</docidentifier>
+  <docnumber>1602</docnumber>
+  <date type="published">
+    <on>2016-02-17</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2016-02-17</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XXXVI, April 21-22, 2016</title>
+  <uri type="xml">documents/csd-report-conference-36.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-36.pdf</uri>
+  <uri type="html">documents/csd-report-conference-36.html</uri>
+  <uri type="rxl">documents/csd-report-conference-36.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1603:2016</docidentifier>
+  <docnumber>1603</docnumber>
+  <date type="published">
+    <on>2016-05-11</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2016-05-11</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Interoperability Test Event XXXVI, April 18-19, 2016</title>
+  <uri type="xml">documents/csd-report-ioptestevent-36.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-36.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-36.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-36.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1604:2016</docidentifier>
+  <docnumber>1604</docnumber>
+  <date type="published">
+    <on>2016-05-31</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2016-05-31</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XXXVII, September 14-16, 2016</title>
+  <uri type="xml">documents/csd-report-conference-37.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-37.pdf</uri>
+  <uri type="html">documents/csd-report-conference-37.html</uri>
+  <uri type="rxl">documents/csd-report-conference-37.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1605:2016</docidentifier>
+  <docnumber>1605</docnumber>
+  <date type="published">
+    <on>2016-09-30</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2016-09-30</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Test Event and Developers Forum XXXVII, September 12-14, 2016</title>
+  <uri type="xml">documents/csd-report-ioptestevent-37.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-37.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-37.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-37.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1606:2016</docidentifier>
+  <docnumber>1606</docnumber>
+  <date type="published">
+    <on>2016-10-07</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2016-10-07</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XXXVIII, February 15-17, 2017</title>
+  <uri type="xml">documents/csd-report-conference-38.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-38.pdf</uri>
+  <uri type="html">documents/csd-report-conference-38.html</uri>
+  <uri type="rxl">documents/csd-report-conference-38.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1701:2017</docidentifier>
+  <docnumber>1701</docnumber>
+  <date type="published">
+    <on>2017-03-08</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-03-08</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on Test Event and Developers Forum XXXVIII, February 13-15, 2017</title>
+  <uri type="xml">documents/csd-report-ioptestevent-38.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-38.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-38.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-38.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1702:2017</docidentifier>
+  <docnumber>1702</docnumber>
+  <date type="published">
+    <on>2017-03-10</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-03-10</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XXXIX, June 14-16, 2017</title>
+  <uri type="xml">documents/csd-report-conference-39.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-39.pdf</uri>
+  <uri type="html">documents/csd-report-conference-39.html</uri>
+  <uri type="rxl">documents/csd-report-conference-39.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1703:2017</docidentifier>
+  <docnumber>1703</docnumber>
+  <date type="published">
+    <on>2017-07-18</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-07-18</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on Test Event and Developers Forum XXXIX, June 12-14, 2017</title>
+  <uri type="xml">documents/csd-report-ioptestevent-39.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-39.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-39.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-39.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1704:2017</docidentifier>
+  <docnumber>1704</docnumber>
+  <date type="published">
+    <on>2017-07-21</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-07-21</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XL, September 27-29, 2017</title>
+  <uri type="xml">documents/csd-report-conference-40.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-40.pdf</uri>
+  <uri type="html">documents/csd-report-conference-40.html</uri>
+  <uri type="rxl">documents/csd-report-conference-40.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1705:2017</docidentifier>
+  <docnumber>1705</docnumber>
+  <date type="published">
+    <on>2017-10-23</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-10-23</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on Test Event and Developers Forum XL, September 25-27 2017</title>
+  <uri type="xml">documents/csd-report-ioptestevent-40.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-40.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-40.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-40.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1706:2017</docidentifier>
+  <docnumber>1706</docnumber>
+  <date type="published">
+    <on>2017-11-20</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-11-20</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XLI, January 31 - February 2, 2018</title>
+  <uri type="xml">documents/csd-report-conference-41.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-41.pdf</uri>
+  <uri type="html">documents/csd-report-conference-41.html</uri>
+  <uri type="rxl">documents/csd-report-conference-41.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1801:2018</docidentifier>
+  <docnumber>1801</docnumber>
+  <date type="published">
+    <on>2018-03-02</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-03-02</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Test Event and Developers Forum XLI, January 29-31, 2018</title>
+  <uri type="xml">documents/csd-report-ioptestevent-41.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-41.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-41.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-41.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1802:2018</docidentifier>
+  <docnumber>1802</docnumber>
+  <date type="published">
+    <on>2018-03-02</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-03-02</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XLII, June 4 - June 8, 2018</title>
+  <uri type="xml">documents/csd-report-conference-42.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-42.pdf</uri>
+  <uri type="html">documents/csd-report-conference-42.html</uri>
+  <uri type="rxl">documents/csd-report-conference-42.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1803:2018</docidentifier>
+  <docnumber>1803</docnumber>
+  <date type="published">
+    <on>2018-06-25</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-06-25</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Test Event and Developers Forum XLII, June 4-6, 2018</title>
+  <uri type="xml">documents/csd-report-ioptestevent-42.xml</uri>
+  <uri type="pdf">documents/csd-report-ioptestevent-42.pdf</uri>
+  <uri type="html">documents/csd-report-ioptestevent-42.html</uri>
+  <uri type="rxl">documents/csd-report-ioptestevent-42.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1804:2018</docidentifier>
+  <docnumber>1804</docnumber>
+  <date type="published">
+    <on>2018-06-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-06-29</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>IOPTEST</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XLIII, September 24 - September 27, 2018</title>
+  <uri type="xml">documents/csd-report-conference-43.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-43.pdf</uri>
+  <uri type="html">documents/csd-report-conference-43.html</uri>
+  <uri type="rxl">documents/csd-report-conference-43.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1805:2018</docidentifier>
+  <docnumber>1805</docnumber>
+  <date type="published">
+    <on>2018-10-23</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-10-23</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XLIV, February 5 - February 8, 2019</title>
+  <uri type="xml">documents/csd-report-conference-44.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-44.pdf</uri>
+  <uri type="html">documents/csd-report-conference-44.html</uri>
+  <uri type="rxl">documents/csd-report-conference-44.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1901:2019</docidentifier>
+  <docnumber>1901</docnumber>
+  <date type="published">
+    <on>2019-03-07</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2019-03-07T00:00:00Z</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Report on CalConnect Conference XLV, June 3 - June 7, 2019</title>
+  <uri type="xml">documents/csd-report-conference-45.xml</uri>
+  <uri type="pdf">documents/csd-report-conference-45.pdf</uri>
+  <uri type="html">documents/csd-report-conference-45.html</uri>
+  <uri type="rxl">documents/csd-report-conference-45.rxl</uri>
+  <docidentifier type="CalConnect">CC/A 1902:2019</docidentifier>
+  <docnumber>1902</docnumber>
+  <date type="published">
+    <on>2019-07-10</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2019-07-10</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <committee>CHAIRS</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+</relaton-collection>

@@ -1,0 +1,16 @@
+/__w/csd-admin-documents/csd-admin-documents/site/documents/csd-report-ioptestevent-40.err errors
+
+
+== Style
+
+(): Prefatory material must be followed by (clause) Scope
+(): Document must contain at least one clause
+(): Document must contain clause after Terms and Definitions
+(): Only annexes and references can follow clauses
+(): Document must include (references) Normative References
+(): Final section must be (references) Bibliography
+
+
+== Metanorma XML Syntax
+
+(XML Line 000187:16): element "csd-standard" incomplete; missing required element "bibliography"

@@ -1,0 +1,43 @@
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Conference XLIV, February 5 - February 8, 2019</title>
+<docidentifier type="CalConnect">CC/A 1901:2019</docidentifier>
+<docnumber>1901</docnumber>
+<date type="published">
+<on>2019-03-07T00:00:00Z</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2019-03-07T00:00:00Z</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>CHAIRS</committee>
+</editorialgroup>
+</ext>
+</bibdata>

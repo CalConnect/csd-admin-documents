@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csd-standard xmlns="https://www.metanorma.org/ns/csd" type="semantic" version="1.6.2">
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on CalConnect Interoperability Test Event XXXV, January 11-13, 2016</title>
+<docidentifier type="CalConnect">CC/A 1602:2016</docidentifier>
+<docnumber>1602</docnumber>
+<date type="published">
+<on>2016-02-17</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2016-02-17</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>published</stage>
+</status>
+<copyright>
+<from>2016</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A">administrative</doctype>
+<editorialgroup>
+<committee>IOPTEST</committee>
+</editorialgroup>
+</ext>
+</bibdata>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_0563a9f0-28f3-48a7-ad4b-82047898cb27">© 2016 The Calendaring and Scheduling Consortium, Inc. </p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_99bc031f-4d18-453c-b15e-614bf0f912bc">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+    <clause>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br/>
+        McKinleyville<br/>
+        California 95519<br/>
+        United States of America<br/>
+        <br/>
+        <link target="mailto:copyright@calconnect.org">copyright@calconnect.org</link><br/>
+        <link target="www.calconnect.org">www.calconnect.org</link>
+      </p>
+    </clause>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_1b8bbbb0-c486-452c-8e64-b80ed816b9ba" obligation="informative"><title>Foreword</title><p id="_6216dab4-3457-4ce7-b757-edf183969dc6">The Calendaring and Scheduling Consortium (“CalConnect”) is a global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.</p>
+<p id="_f8134fdf-0ca5-4bfe-bff2-a4b7c34598b3">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+<p id="_57be0cf2-1f00-4797-8473-d0f04a60cbd4">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.</p>
+<p id="_dcf4547e-6593-4278-af3b-9156b0990fa2">In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+<p id="_0cfe4922-8077-4729-bc29-946a7af0712e">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+<p id="_e900e0ec-ab8b-4156-8e6d-2e6870efd9ee">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+<p id="_a7d01dc3-51e9-4136-bc9d-3b7be6f14a0b">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
+<clause id="_report" obligation="normative"><title>Report</title><p id="_e4e5cdff-7ca8-4eb7-9c26-b69811de00b6">The Calconnect interoperability event was hosted by AOL at their Palo Alto site on January 11th through the morning of the 13th.</p>
+<p id="_f3ab0461-a011-4532-979b-f5baa17cc2ef">While it was a smaller than usual event much valuable work took place. There was the usual mix of in-depth discussions and actual testing of implementations.</p>
+<p id="_5efbf4a1-2de5-4cf5-8c77-825eaf9996fa">On the testing front there was:</p>
+<ul id="_6b4acc60-05a0-4cef-bbcf-d9c44305b6b8">
+<li>
+<p id="_a6baf0ff-7fc0-40ea-805d-e4e042ece6de">Work on the server-info document</p>
+</li>
+<li>
+<p id="_c25dc98d-f34d-4127-8b93-7c86d4e310ba">CalDav Tester</p>
+</li>
+<li>
+<p id="_80d2efc1-ad92-4891-8db2-77cd2b19c510">Ralph Beckers caldav tester scripts</p>
+</li>
+<li>
+<p id="_b49c34c2-a74f-446c-9034-8dd68ff0183c">General CalDAV</p>
+</li>
+</ul>
+<p id="_ebcde219-44fb-41b6-b140-e917bcfa9c12">The server-info document is a new specification being developed to provide cacheable server information for use by clients, detailing services available and some limits. This has been implemented by a number of servers and some clients. Each interoperability event has led to changes in the specification. The general feeling is that it is now ready for wider testing and use.</p>
+<p id="_e173c9a2-12b2-4013-9919-56d445c071c0">The CalDAV tester is associated with Apple’s Darwin open source server offering and provides many tests of CardDAV, CalDAV and related features. It is very configurable. Ralph Becker’s tool helps to run the tests and store results.</p>
+<p id="_44d3f0e7-c54d-484d-b837-844821e655e7">While historically, this has been an event focusing on interoperability testing we have been moving towards having more in-depth, developer-centric discussions on topics of interest.</p>
+<p id="_fe457a44-3747-432c-b5d1-3a6bd2d908a2">This event was no exception with discussions on all of the above topics as well as how best to move forward with the new developers guide.</p>
+<p id="_bd145fa0-5bcd-49b1-8d4d-41c73229cd96">We are looking forward to being back to our usual larger attendance at Hong Kong in April. Check the website over the coming weeks as we will be updating the schedule to reflect the specific interests of the attendees,</p></clause></sections>
+</csd-standard>

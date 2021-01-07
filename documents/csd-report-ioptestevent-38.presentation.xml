@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csd-standard xmlns="https://www.metanorma.org/ns/csd" type="presentation" version="1.6.2">
+<bibdata type="standard">
+<title language="en" format="text/plain">Report on Test Event and Developers Forum XXXVIII, February 13-15, 2017</title>
+<docidentifier type="CalConnect">CC/A 1702:2017</docidentifier>
+<docnumber>1702</docnumber>
+<date type="published">
+<on>2017-03-10</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2017-03-10</revision-date>
+</version>
+<language current="true">en</language>
+<script current="true">Latn</script>
+<status>
+<stage language="">published</stage>
+</status>
+<copyright>
+<from>2017</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype abbreviation="A" language="">administrative</doctype>
+<editorialgroup>
+<committee>IOPTEST</committee>
+</editorialgroup>
+</ext>
+</bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Table of contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Appendix</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="term_defined_in" language="en">[term defined in %]</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="subject" language="en">Subject</localized-string><localized-string key="inherits" language="en">Inherits</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_132a116f-b51f-4c8e-80ed-e66d1a820df3">© 2017 The Calendaring and Scheduling Consortium, Inc. </p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_c64a908c-b491-4764-9960-840a3d6470c4">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+    <clause>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br/>
+        McKinleyville<br/>
+        California 95519<br/>
+        United States of America<br/>
+        <br/>
+        <link target="mailto:copyright@calconnect.org">copyright@calconnect.org</link><br/>
+        <link target="www.calconnect.org">www.calconnect.org</link>
+      </p>
+    </clause>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_20391e6c-6eb0-4ff2-b9e3-9abcadaf9a8d" obligation="informative"><title>Foreword</title><p id="_9f3f50e9-ffe0-49b2-90f3-c0fc0678d643">The Calendaring and Scheduling Consortium (“CalConnect”) is a global non-profit
+organization with the aim to facilitate interoperability of technologies across
+user-centric systems and applications.</p>
+<p id="_32ecc023-6d1a-4eeb-9a8f-5a5e288192b6">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+<p id="_4c89b45e-6cb4-4581-84c1-3c4062c99114">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.</p>
+<p id="_a38031e6-f07f-4e82-841d-533b3253528d">In particular the different approval criteria needed for the different types of
+ISO documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+<p id="_4a1f33f2-27dd-49c2-ab43-fee5ba8f8d0f">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+<p id="_f828b82b-7565-48c1-b733-7f1806eb420a">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+<p id="_35510b14-44e2-4410-a258-2823391bebdb">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
+<clause id="_report" obligation="normative"><title depth="1">1.<tab/>Report</title><p id="_09815d57-589d-4225-a222-8aea53564605">The event was hosted by the University of California, Irvine, in Irvine California on February 13-15, 2017</p>
+<p id="_097f05a2-f585-4c08-8eb2-ada1f22e5b7d">The participants in this event were:</p>
+<ul id="_0cd3af69-0fb7-4e25-b8c6-25447b70c9fc">
+<li>
+<p id="_95787517-3a6c-48b9-a7ab-4ca98a580110">1and1</p>
+</li>
+<li>
+<p id="_d102cb2d-b07e-436b-86ab-6ee30aab37b0">AOL</p>
+</li>
+<li>
+<p id="_8eea5be2-d532-4ebd-a4dd-13aa92ef718e">Apple</p>
+</li>
+<li>
+<p id="_f797a669-bf16-4aac-8633-b4a238751b0a">FastMail</p>
+</li>
+<li>
+<p id="_ea65fb33-dd55-48a3-845f-09bea2c5737a">Google</p>
+</li>
+<li>
+<p id="_885867d6-0adc-4be6-a088-21e6b764651b">SCG (Bedework)</p>
+</li>
+<li>
+<p id="_2823bd6c-513e-44fe-9dd4-b160209cd16f">Zimbra</p>
+</li>
+</ul>
+<p id="_3df9311d-b849-4754-aa05-75e229825bf2">There were a number of areas some or all of us were interested in pursuing. These included:</p>
+<ul id="_a832cb0d-8997-4670-8018-6e722213db55">
+<li>
+<p id="_6ff5b901-b74c-4505-a389-a62818fd6c51">For the Java people bringing ourselves up to date with the latest ical4j</p>
+</li>
+<li>
+<p id="_bbdedfd5-7249-4fe6-8c34-a93424c0152e">Coming up with a way of handling updates to the caldav tester suite.</p>
+</li>
+<li>
+<p id="_d07962ff-b6d7-435c-b403-52d75000d570">Discussions on developer guide directions</p>
+</li>
+</ul>
+<p id="_317966f5-d133-4e57-be3f-7107112314c8">There were the usual crop of issues that attendees wanted to address. iMIP has been a major topic lately and the forum provided an opportunity for some members to deal with problems they had been experiencing.</p>
+<p id="_59b6f7a9-6181-4904-bc18-622f93b77834">Ical4j has been the topic of much discussion for some months. We used this session as an opportunity to work on bringing ourselves up to date with the latest version — or at least investigating how much work it would be. 1&amp;1, Bedework, Zimbra and AOL were present and are users of iCal4j. In the coming months we will discuss what changes we would like to see made to that library.</p>
+<p id="_3ec75cf3-9531-4a7e-8f32-777fa01c3f4d">At the Dresden meeting we decided to create a CalConnect fork of the Darwin CalDAV tester and work on some of the tests to make them more usable for non-Apple servers. In the intervening period some changes were proposed and we spent some time this meeting discussing how we might get these changes merged back into the CalConnect fork. The intent is to come up with a subset of tests that any server developer should be able to run and expect to get a 100% success rate. A number of us have localized versions of the tester and we would like to merge many of these changes into the CalConnect version so that they can benefit everybody.</p>
+<p id="_1540b6d5-f903-48ed-9695-42fd99bf671d">The meeting was a chance to carry out some of the internal changes to the developer guide that had been contemplated. These should make it easier to organize the content in the future.</p>
+<p id="_02f4d5ed-fd9c-4600-9cec-ce043f15048f">There was further discussion on the new data model being worked on by TC API and its JSON representation.</p>
+<p id="_eb41ce4d-1916-4367-92f6-3fdb2109914f">We also spent some time talking over the issue of calendar spam and how this differs, if at all, from email spam. This allowed us to collect our thoughts ready for a wider discussion in the conference that followed. While calendar spam has not been a major ongoing issue it has already caused some problems and we need to be ready to deal with the inevitable.</p></clause></sections>
+</csd-standard>
