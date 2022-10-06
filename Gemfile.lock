@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     asciidoctor (2.0.12)
     asciimath (2.0.2)
     bibtex-ruby (6.0.0)
@@ -211,6 +211,8 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
+      racc (~> 1.4)
     optout (0.0.2)
     ox (2.14.0)
     parslet (1.7.1)
@@ -219,7 +221,7 @@ GEM
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (4.0.6)
+    public_suffix (5.0.0)
     racc (1.5.2)
     rake (13.0.3)
     rchardet (1.8.0)
@@ -321,8 +323,8 @@ GEM
     uuidtools (2.2.0)
 
 PLATFORMS
-  ruby
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   metanorma-cli
